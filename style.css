@@ -1,0 +1,350 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Raleway;
+	/* border: 1px solid red; */
+}
+
+header{
+	background: black;
+	color:white;
+}
+.tlo1{
+	width: 100%;
+	 background-image: linear-gradient(white, #bababa);
+}
+header div{
+	display: flex;
+	justify-content: space-between;
+}
+.floatleft{
+	float: left;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+	display: flex;
+}
+.imagesize{
+	width: 100%;
+}
+.textwidth{
+	width: 80%;
+	margin: 5px auto;
+}
+.imagename{
+	bottom: 120px;
+	border-bottom: 5px solid #21C4A7;
+	width: 41%;
+	margin-left: 15px;
+}
+.imagename1{
+	top: 20px;
+	border-bottom: 5px solid #21C4A7;
+	width: 41%;
+	margin-left: 15px;
+}
+
+.imagebackground{
+	background-color: rgba(255, 255, 255, 0.5);
+	bottom:75px;
+	height: 60px;
+	width: 100%;
+}
+
+.textborder{
+	border: 1px solid #bababa;
+	height: 250px;
+}
+header li{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+
+}
+.photosize{
+	width: 32%;
+	margin-top: 25px;
+}
+
+.bracked1{
+	color:#21C4A7;
+	font-size: 4em;
+	padding-left: 1em;
+}
+
+.bracked2{
+	color:#21C4A7;
+	font-size: 4em;
+	padding-right: 1em;
+
+
+}
+.prizecircletop{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px solid #bababa;
+	position: relative;
+	margin: 0 auto;
+	background-color: white;
+	top: -30px;
+}
+.prizecircletop1{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: relative;
+	margin: 0 auto;
+	background-color: #bababa;
+	top:12.5px;
+}
+
+.prizecircletop21{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px solid #21C4A7;
+	position: relative;
+	margin: 0 auto;
+	background-color: #21C4A7;
+	top: -30px;
+}
+.prizecircletop22{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: relative;
+	margin: 0 auto;
+	background-color: white;
+	top:12.5px;
+}
+
+.prizebackground{
+	background-color: #f1f1f1;
+	width: 100%;
+}
+.prizelist1{
+	width: 31%;
+	height: 420px;
+	border: 2px solid #bababa;
+	background-color: #f9f9f9;
+	margin-bottom: 50px;
+}
+.prizelist2{
+	width: 31%;
+	height: 420px;
+	border: 2px solid #21C4A7;
+	background-color:  #21C4A7;
+}
+.prizering1{
+	height: 100px;
+	width: 100px;
+	border: 1px solid #bababa;
+	border-radius: 50%;
+	font-size: 2em;
+	color: #bababa;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+}
+.prizering2{
+	height: 100px;
+	width: 100px;
+	border: 1px solid #21C4A7;
+	border-radius: 50%;
+	font-size: 2em;
+	color: #21C4A7;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+	background: white;
+}
+.prizetext1{
+	width: 100%;
+	color: #999999;
+	background-color: #e4e4e4;
+	align-items: center;
+	display: inline-block;
+	margin: 0 auto;
+}
+.prizetext2{
+	width: 100%;
+	color: #8d8d8d;
+	background-color: #f1f1f1;
+	align-items: center;
+	display: inline-block;
+	margin: 0 auto;
+}
+.prizetext3{
+	width: 100%;
+	color: #8d8d8d;
+	align-items: center;
+	display: inline-block;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.prizetextcenter{
+	margin: auto;
+   width: 80%;
+   padding: 10px;
+}
+.prizetextcenter1{
+	margin: auto;
+   width: 80%;
+   padding: 10px;
+	 text-align: center;
+}
+
+
+.spacebetween{
+	justify-content: space-between;
+}
+
+.prizecurrency{
+	font-size: 0.4em;
+}
+
+.prizewidth{
+	width:1.4em;
+}
+.prizewidth1{
+	width:1.7em;
+}
+.relative{
+	position: relative;
+}
+sup{
+	font-size: 0.3em;
+	top: 1em;
+	position: absolute;
+	top:0;
+	right: 0;
+
+}
+form{
+	width: 60%;
+}
+
+footer{
+	justify-content: space-between;
+	color: #bababa;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.flexcenter{
+	display: flex;
+	justify-content: center;
+}
+.blackchairtitle{
+
+}
+.center{
+align-items: center;
+}
+.footer_napis{
+	padding: 10px;
+}
+
+h2{
+	width: 300px;
+	border-bottom: 5px solid	 #21C4A7;
+	color: #505050;
+	margin:1.5em 0 2.5em 0;
+}
+h3{
+	margin:-1.25em 0 0 0;
+}
+
+.button1{
+	width: 100%;
+}
+.button1 input {
+  background-color: #21C4A7;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	width: 100%;
+	margin-bottom: 70px;
+	cursor: pointer;
+}
+
+.button2 input {
+  background-color: #21C4A7;
+  border-radius: 8px;
+  color: white;
+  padding: .3em 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	margin-bottom:15px;
+	cursor: pointer;
+}
+.button3 input {
+  background-color: white;
+  border-radius: 8px;
+  color: #21C4A7;
+  padding: .3em 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.approval{
+	color: #bababa;
+	padding-left: 10px;
+
+}
+.margin{
+	margin-bottom: 10px;
+}
+
+.topiccolor{
+	color: #21C4A7;
+}
+.topiccolor1{
+	color: white;
+}
+form input{
+	margin-bottom: 20px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #bababa;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #bababa;
+  box-sizing: border-box;
+}
+textarea{
+	padding: 10px;
+}
+.widthbox{
+	width: 60%;
+}
+.widthbox1{
+	width: 35%;
+}
