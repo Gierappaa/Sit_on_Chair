@@ -7,4 +7,5 @@ This page is a simple one that i made for practice.
 * HTML
 * CSS
 
+#### To enter the site click the title or the link below.
 https://gierappaa.github.io/Sit_on_Chair/
